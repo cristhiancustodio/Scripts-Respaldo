@@ -51,8 +51,14 @@ Abrir en modo administrador
 ```sh 
 Set-ExecutionPolicy Unrestricted
 ```
-
 Una vez ejecutado dar S (si)
+
+Si quieres revertir el paso anterior usa este comando
+```sh
+Set-ExecutionPolicy Restricted
+```
+
+
 
 Dado los permisos acceder al archivo en el mismo powershell
 
